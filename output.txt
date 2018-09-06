@@ -1,5 +1,5 @@
 $ nvcc -arch=sm_52 -std=c++14 -ccbin=g++-7 -o init init.cu 
-$ cuda-memcheck ./mobasher 
+$ cuda-memcheck ./init 
 ========= CUDA-MEMCHECK
 0 1 2
 1 2 3
